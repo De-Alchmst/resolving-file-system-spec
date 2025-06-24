@@ -53,8 +53,8 @@ is considered a separate resource.
 Only mandatory modifier to be implemented is ':nop', which does nothing, except
 separating resources.
 
-If resource does not exist, cannot be obtained, or contains invalid modifiers,
-file I/O error should be returned.
+If resource does not exist, is invalid, cannot be obtained, or contains invalid
+modifiers, file I/O error should be returned.
 
 Based on the protocol, RFS might implement writing.
 If writing isn't implemented or specific resource cannot be written to, file
